@@ -27,3 +27,13 @@ All files named .addin in these locations will be read and processed by Revit du
 
 `Revit-Sandbox.addin` is a basic manifest file adding one ExternalCommand
 
+## Debugging
+
+In order to debugging your plugin, you should run Revit and attach the visual studio debugger to the running process. Open the `Attach to process` window from `Debug` menu and select the `Revit.exe` to attached the debugger
+
+![RTF](images/AttachDebugger.png)
+
+After attaching the debugger you can run your command and the break point will be hitted automatically.Just make sure you have already copied the last version of your assemblies from `Debug` directory into the `Addins` folder. You can simply automate the process of copying the last version of assemblies into the Addings folder using project post-build events.
+
+An other tool that is very handy in the debugging process is [Revit Lookup](https://github.com/jeremytammik/RevitLookup). Using this plugin you can select every Revit element and extract all of its properties.
+
