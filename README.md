@@ -12,6 +12,8 @@ You can start with a sample command function located on `Commands\SampleCommand.
 
 ![RTF](images/ExternalTools.png)
 
+You can also follow the Autodesk tutorial on [My First Revit Plug-in](https://knowledge.autodesk.com/search-result/caas/simplecontent/content/my-first-revit-plug-overview.html). It is a “one-stop shop” learning path that gives you a lot of great materials to start with.
+
 ## Add-in Registration
 Revit API applications are registered with Revit via a .addin manifest file. Manifest files are read automatically by Revit when they are placed in one of two locations on a user's system:
 
